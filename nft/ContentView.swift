@@ -11,16 +11,38 @@ import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
+        NavigationSplitView {
+            SideBarViews()
+        } detail: {
+            NFTItemView()
         }
-        .padding()
     }
 }
 
-#Preview(windowStyle: .automatic) {
+#Preview {
     ContentView()
+}
+
+
+struct NFTItemView: View {
+    let colums: [GridItem] = [GridItem(.adaptive(minimum: 160, maximum: 200))]
+    var body: some View {
+        ScrollView{
+            Text("sdsd")
+            
+        }.toolbar{
+            ToolbarItemGroup(placement: .topBarLeading){
+                VStack(alignment: .leading) {
+                    Text("Albums").font(.largeTitle)
+                    // Text("Albums").foregroundStyle(.tertiary)
+                    
+                }
+            }
+            ToolbarItem{
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Image(systemName: "line.3.horizontal.decrease")
+                })
+            }
+        }
+    }
 }
