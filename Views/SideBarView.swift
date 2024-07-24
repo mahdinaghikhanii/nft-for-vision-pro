@@ -7,6 +7,7 @@ struct SideBarViews: View {
                 Label(item.name , systemImage: item.icon).foregroundStyle(.primary)
             }.navigationDestination(for: SideMenuItem.self) { item in
                 
+                
             }
         }.toolbar {
             ToolbarItem(placement: .topBarLeading){

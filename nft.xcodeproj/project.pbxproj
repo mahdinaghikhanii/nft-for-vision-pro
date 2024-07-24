@@ -13,8 +13,11 @@
 		8E6B60072C49AC220087B749 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B60062C49AC220087B749 /* ContentView.swift */; };
 		8E6B60092C49AC240087B749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6B60082C49AC240087B749 /* Assets.xcassets */; };
 		8E6B600C2C49AC240087B749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6B600B2C49AC240087B749 /* Preview Assets.xcassets */; };
+		8E6E7A182C51680B004E4E0E /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7A172C51680B004E4E0E /* Detail.swift */; };
+		8E6E7A1B2C5184FB004E4E0E /* LatesCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7A1A2C5184FB004E4E0E /* LatesCrypto.swift */; };
 		8EA181CB2C4D3C7D00DA1208 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA181CA2C4D3C7D00DA1208 /* SideBarView.swift */; };
 		8EA181CE2C4D487F00DA1208 /* CollectionNFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA181CD2C4D487F00DA1208 /* CollectionNFT.swift */; };
+		8EA181D02C4D87F700DA1208 /* NFTItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA181CF2C4D87F700DA1208 /* NFTItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +29,11 @@
 		8E6B60082C49AC240087B749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E6B600B2C49AC240087B749 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E6B600D2C49AC240087B749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6E7A172C51680B004E4E0E /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		8E6E7A1A2C5184FB004E4E0E /* LatesCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatesCrypto.swift; sourceTree = "<group>"; };
 		8EA181CA2C4D3C7D00DA1208 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		8EA181CD2C4D487F00DA1208 /* CollectionNFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNFT.swift; sourceTree = "<group>"; };
+		8EA181CF2C4D87F700DA1208 /* NFTItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +104,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8E6E7A192C5184DD004E4E0E /* latest_crypto */ = {
+			isa = PBXGroup;
+			children = (
+				8E6E7A1A2C5184FB004E4E0E /* LatesCrypto.swift */,
+			);
+			path = latest_crypto;
+			sourceTree = "<group>";
+		};
 		8EA181C92C4D3C4800DA1208 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8E6E7A192C5184DD004E4E0E /* latest_crypto */,
 				8EA181CA2C4D3C7D00DA1208 /* SideBarView.swift */,
+				8EA181CF2C4D87F700DA1208 /* NFTItemView.swift */,
+				8E6E7A172C51680B004E4E0E /* Detail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,10 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA181D02C4D87F700DA1208 /* NFTItemView.swift in Sources */,
+				8E6E7A182C51680B004E4E0E /* Detail.swift in Sources */,
 				8EA181CE2C4D487F00DA1208 /* CollectionNFT.swift in Sources */,
 				8E6B60072C49AC220087B749 /* ContentView.swift in Sources */,
 				8EA181CB2C4D3C7D00DA1208 /* SideBarView.swift in Sources */,
 				8E6B60052C49AC220087B749 /* nftApp.swift in Sources */,
+				8E6E7A1B2C5184FB004E4E0E /* LatesCrypto.swift in Sources */,
 				8E53A71A2C4C15C000C3F428 /* SideMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

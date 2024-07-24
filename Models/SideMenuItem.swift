@@ -8,8 +8,8 @@ struct SideMenuItem: Identifiable , Hashable {
 
 
 let SideMenuItems : [SideMenuItem] = [
-    SideMenuItem(name: "NFT", icon: "nft"),
-    SideMenuItem(name: "Collections", icon: "clock"),
-    SideMenuItem(name: "MarketPlaces", icon: "market"),
-    SideMenuItem(name: "Users", icon: "users"),
+    SideMenuItem(name: "NFT", icon: "seal"),
+    SideMenuItem(name: "Collections", icon: "cube.box"),
+    SideMenuItem(name: "MarketPlaces", icon: "scope"),
+    SideMenuItem(name: "Users", icon: "person.2"),
 ]
