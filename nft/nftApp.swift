@@ -1,9 +1,4 @@
-//
-//  nftApp.swift
-//  nft
-//
-//  Created by mahdi naghikhani on 18/07/2024.
-//
+
 
 import SwiftUI
 
@@ -11,7 +6,7 @@ import SwiftUI
 struct nftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePage()
         }
     }
 }
