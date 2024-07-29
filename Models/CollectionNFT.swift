@@ -9,7 +9,7 @@ struct CollectionNFT: Identifiable {
 
 let collectionData : [CollectionNFT] = [
     CollectionNFT(image: "nft1" , title: "FIrst" , subTitle: "Mahdi"),
-    CollectionNFT(image: "nft2" , title: "FIrst" , subTitle: "Mahdi"),
+    CollectionNFT(image: "nft2" , title: "Last" , subTitle: "Mahdi"),
     CollectionNFT(image: "nft33" , title: "FIrst" , subTitle: "Mahdi"),
     CollectionNFT(image: "nft4" , title: "FIrst" , subTitle: "Mahdi"),
     CollectionNFT(image: "nft5" , title: "FIrst" , subTitle: "Mahdi"),

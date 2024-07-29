@@ -18,6 +18,7 @@
 		8EA181D02C4D87F700DA1208 /* NFTItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA181CF2C4D87F700DA1208 /* NFTItemView.swift */; };
 		8EF2005B2C53FB2F00A5C007 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2005A2C53FB2F00A5C007 /* HomePage.swift */; };
 		8EF2005E2C53FFF800A5C007 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2005D2C53FFF800A5C007 /* ProductsView.swift */; };
+		8EFD044F2C5831F000AB88B9 /* Soulless.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EFD044E2C5831EF00AB88B9 /* Soulless.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		8EA181CF2C4D87F700DA1208 /* NFTItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTItemView.swift; sourceTree = "<group>"; };
 		8EF2005A2C53FB2F00A5C007 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		8EF2005D2C53FFF800A5C007 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		8EFD044E2C5831EF00AB88B9 /* Soulless.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Soulless.usdz; path = ../../../../../Downloads/Soulless.usdz; sourceTree = "<group>"; };
+		8EFD04512C58322300AB88B9 /* Soulless.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Soulless.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		8E6B5FF42C49AC220087B749 = {
 			isa = PBXGroup;
 			children = (
+				8EFD04502C58321600AB88B9 /* assets */,
 				8EA181C92C4D3C4800DA1208 /* Views */,
 				8E53A7182C4C159000C3F428 /* Models */,
 				8E6B5FFF2C49AC220087B749 /* nft */,
@@ -81,6 +85,7 @@
 			children = (
 				8E6B60042C49AC220087B749 /* nftApp.swift */,
 				8E6B60082C49AC240087B749 /* Assets.xcassets */,
+				8EFD044E2C5831EF00AB88B9 /* Soulless.usdz */,
 				8E6B600D2C49AC240087B749 /* Info.plist */,
 				8E6B600A2C49AC240087B749 /* Preview Content */,
 			);
@@ -147,6 +152,14 @@
 			path = Widgets;
 			sourceTree = "<group>";
 		};
+		8EFD04502C58321600AB88B9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD04512C58322300AB88B9 /* Soulless.usdz */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFD044F2C5831F000AB88B9 /* Soulless.usdz in Resources */,
 				8E6B600C2C49AC240087B749 /* Preview Assets.xcassets in Resources */,
 				8E6B60092C49AC240087B749 /* Assets.xcassets in Resources */,
 			);

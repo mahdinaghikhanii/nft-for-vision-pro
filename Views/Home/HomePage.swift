@@ -9,7 +9,7 @@ struct HomePage: View {
 //                SideBarViews()
 //            } detail: {
 //                NFTItemView()
-//            }.wa
+//            }.
             NavigationStack{NFTItemView()} .tabItem {
                 Label("NFT Collection" , systemImage: "seal")
             }.tag(0)
